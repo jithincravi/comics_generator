@@ -11,6 +11,15 @@ def add_text_to_panel(text, panel_image):
 
   return result_image
 
+def get_text_dimensions(text_string, font):
+    # https://stackoverflow.com/a/46220683/9263761
+    ascent, descent = font.getmetrics()
+
+    text_width = font.getmask(text_string).getbbox()[2]
+    text_height = font.getmask(text_string).getbbox()[3] + descent
+
+    return (text_width, text_height)
+
 def generate_text_image(text):
     # Define image dimensions
     width = 1024
@@ -26,7 +35,9 @@ def generate_text_image(text):
     font = ImageFont.truetype(font="manga-temple.ttf", size=30)
 
     # # Calculate text size
-    text_width, text_height = draw.textsize(text, font=font)
+    #text_width, text_height = draw.textsize(text, font=font)
+    text_width, text_height = get_text_dimensions(text, font)
+
 
     # # Calculate the maximum font size that fits both width and height
     # max_font_size_width = width // len(text)

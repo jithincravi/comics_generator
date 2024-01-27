@@ -11,12 +11,13 @@ from create_strip import create_strip
 # Characters: Adrien is a guy with blond hair. Vincent is a guy with black hair.
 # Adrien and Vincent work at the office and want to start a new product, and they create it in one night before presenting it to the board.
 # """
+
 SCENARIO = """
-Characters: Peter is a tall guy with blond hair. Steven is a small guy with black hair.
-Peter and Steven walk together in new york when aliens attack the city. They are afraid and try to run for their lives. The army arrive and save them.
+Characters: Superstar is a guy who looks like young Rajnikanth. New York City is in danger of an alien attack from a Spaceship. Superstar the young Rajnikanth lookalike 
+flies towards the large Alien spaceship. Superstar the young Rajnikanth lookalike saves the day by destroying the large alien spaceship.
 """
 
-STYLE = "american comic, colored"
+STYLE = "belgian comic, greyscale"
 
 # ==========================================================================================
 
