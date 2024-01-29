@@ -3,3 +3,4 @@ output/panels.json
 output/panel-*.png
 .idea
 
+/scratch.py

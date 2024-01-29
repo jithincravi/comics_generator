@@ -17,9 +17,9 @@ For each cartoon panel, you will write a description of it with:
  - the background of the panel
 The description should be only word or group of word delimited by a comma, no sentence.
 Always use the characters descriptions instead of their name in the cartoon panel description.
-You can not use the same description twice.
+You can use the same description twice.
 You will also write the text of the panel.
-The text should not be more than 2 small sentences.
+The text should not be more than 2 sentences.
 Each sentence should start by the character name
 
 Example input:
@@ -32,8 +32,8 @@ Example output:
 description: 2 guys, a blond hair guy wearing glasses, a dark hair guy wearing hat, sitting at the office, with computers
 text:
 ```
-Vincent: I think Generative AI are the future of the company.
-Adrien: Let's create a new product with it.
+Vincent: I think Generative AI is the future of the company.
+Adrien: Let's create a new product with it overnight.
 ```
 # end
 
