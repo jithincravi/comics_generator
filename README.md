@@ -1,10 +1,11 @@
-# Comics Generator
 
-fork from original project aschen/comic-generator. Huge thanks.
+Using OpenAPI and Stability.AI to generate a strip of comic.
 
 The scenario must mention the characters with a physical description.
 
 ## How it works
+Forked from original project [aschen/comic-generator](https://github.com/Aschen/comics_generator). Huge thanks !
+
 First, a LLM (OpenAI API) is used to split the scenario into 6 panels with their description and associated text.
 
 Then for each panel:
