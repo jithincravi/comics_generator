@@ -14,6 +14,7 @@ The 6 generated images with their texts are then merged into a final strip !
 
 ## Lessons learnt:
 Creating a consistent aesthetics through prompting throughout the comic is definitely an "art". 
+e.g. The tie that Thaliavar wears in each panel is different :)
 Ensure your prompts are consistently supplying as much physical details about the character and the background.
 In this case, the prompts for Stability is AI generated from OpenAPI - so it probably needs better prompt template to generate consistent outcomes  
 
