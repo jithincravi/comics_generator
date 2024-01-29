@@ -1,6 +1,6 @@
 # Comics Generator
 
-This program use Generative AI to create an entire comic strip from a short scenario.
+fork from original project aschen/comic-generator. Huge thanks.
 
 The scenario must mention the characters with a physical description.
 
