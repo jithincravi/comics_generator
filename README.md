@@ -1,5 +1,5 @@
 
-Using OpenAPI and Stability.AI to generate a strip of comic.
+Using OpenAI and Stability.AI to generate a strip of comic.
 
 The scenario must mention the characters with a physical description.
 
